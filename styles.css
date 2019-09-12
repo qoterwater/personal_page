@@ -3,8 +3,8 @@ html {
 }
 
 .logo {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-top: 5px;
     border: 2px solid #2800B8;
@@ -16,9 +16,23 @@ header {
     margin-top: 10px;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 10px 10px;
 }
-.photos {
-    width: 800px;
+.about_me_text {  
+    text-align: center;
+}
+.about_me_text h2 {
+    background-color: #22009C;
+    padding: 20px;
+    border-radius: 20px;
+    color: #C9C9C9;
+}
+.about_me_text p{
+    background-color: #2800B8;
+    color: #DFDFDF;
+    padding: 10px;
+    border-radius: 10px;
 }
 h1 {
     background-color: #22009C;
@@ -73,6 +87,7 @@ a {
     background-color: #483BC0;
     border-radius: 5px;
     padding-left: 10px;
+
     color: #C9C9C9;
 }
 
@@ -96,9 +111,4 @@ li {
 .links h2:hover {
     color: rgb(101, 85, 240);
     text-decoration: #22009C;
-}
-.photos img{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
 }
