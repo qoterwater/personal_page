@@ -7,7 +7,7 @@ img {
     height: 250px;
     border-radius: 50%;
     margin-top: 5px;
-    border: 5px solid #2800B8;
+    border: 2px solid #2800B8;
 }
 
 header {
@@ -21,18 +21,17 @@ header {
 h1 {
     background-color: #22009C;
     padding: 15px 10px;
-    border-radius: 20px;
+    border-radius: 35px;
     color: #DFDFDF;
 }
 
 a {
     text-decoration: none;
     color: #C9C9C9;
-    transition: 1s ease-out;
 }
 
 .labs a:hover {
-    transition: all 1s;
+    transform: 1s;
     color: #FFFFFF;
     text-shadow: 0 0 5px #000000;
 }
@@ -57,6 +56,7 @@ a {
     background-color: #2800B8;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
+    width: 350px;
 }
 
 .left-top-text {
@@ -64,7 +64,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    max-width: 900px;
+    width: 380px;
 }
 
 .text {
@@ -90,12 +90,8 @@ li {
 
 .links h2 {
     font-size: 20px;
-    transition: 1s;
 }
-
 .links h2:hover {
-    transition: 1s;
-    font-size: 26px;
-    color: #8F65FC;
-    margin: 15px 0px
+    color: rgb(101, 85, 240);
+    text-decoration: #22009C;
 }
