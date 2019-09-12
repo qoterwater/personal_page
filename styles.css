@@ -17,7 +17,9 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
-
+.photos {
+    width: 800px;
+}
 h1 {
     background-color: #22009C;
     padding: 15px 10px;
@@ -96,7 +98,7 @@ li {
     text-decoration: #22009C;
 }
 .photos img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
